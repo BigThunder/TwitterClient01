@@ -21,6 +21,11 @@
 		AA2B3B57194C0E7F009D53F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B3B39194C0E7F009D53F1 /* UIKit.framework */; };
 		AA2B3B5F194C0E7F009D53F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA2B3B5D194C0E7F009D53F1 /* InfoPlist.strings */; };
 		AA2B3B61194C0E7F009D53F1 /* BigThunderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B3B60194C0E7F009D53F1 /* BigThunderTests.m */; };
+		AA2B3B6C194C2992009D53F1 /* TimeLineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B3B6B194C2992009D53F1 /* TimeLineTableViewController.m */; };
+		AA2B3B6F194C2BCF009D53F1 /* TimeLineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA2B3B6E194C2BCF009D53F1 /* TimeLineCell.m */; };
+		AAF1994A195519D000E8D631 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF19949195519D000E8D631 /* DetailViewController.m */; };
+		AAF1994D19553F4C00E8D631 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF1994C19553F4C00E8D631 /* WebViewController.m */; };
+		AAF19950195544B300E8D631 /* MyUIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF1994F195544B300E8D631 /* MyUIApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,16 @@
 		AA2B3B5C194C0E7F009D53F1 /* BigThunderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BigThunderTests-Info.plist"; sourceTree = "<group>"; };
 		AA2B3B5E194C0E7F009D53F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA2B3B60194C0E7F009D53F1 /* BigThunderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigThunderTests.m; sourceTree = "<group>"; };
+		AA2B3B6A194C2992009D53F1 /* TimeLineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineTableViewController.h; sourceTree = "<group>"; };
+		AA2B3B6B194C2992009D53F1 /* TimeLineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineTableViewController.m; sourceTree = "<group>"; };
+		AA2B3B6D194C2BCF009D53F1 /* TimeLineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeLineCell.h; sourceTree = "<group>"; };
+		AA2B3B6E194C2BCF009D53F1 /* TimeLineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeLineCell.m; sourceTree = "<group>"; };
+		AAF19948195519D000E8D631 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AAF19949195519D000E8D631 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AAF1994B19553F4C00E8D631 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AAF1994C19553F4C00E8D631 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AAF1994E195544B300E8D631 /* MyUIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIApplication.h; sourceTree = "<group>"; };
+		AAF1994F195544B300E8D631 /* MyUIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +130,20 @@
 				AA2B3B44194C0E7F009D53F1 /* AppDelegate.h */,
 				AA2B3B45194C0E7F009D53F1 /* AppDelegate.m */,
 				AA2B3B47194C0E7F009D53F1 /* Main.storyboard */,
+				AA2B3B6A194C2992009D53F1 /* TimeLineTableViewController.h */,
+				AA2B3B6B194C2992009D53F1 /* TimeLineTableViewController.m */,
 				AA2B3B4A194C0E7F009D53F1 /* ViewController.h */,
 				AA2B3B4B194C0E7F009D53F1 /* ViewController.m */,
 				AA2B3B4D194C0E7F009D53F1 /* Images.xcassets */,
 				AA2B3B3C194C0E7F009D53F1 /* Supporting Files */,
+				AA2B3B6D194C2BCF009D53F1 /* TimeLineCell.h */,
+				AA2B3B6E194C2BCF009D53F1 /* TimeLineCell.m */,
+				AAF19948195519D000E8D631 /* DetailViewController.h */,
+				AAF19949195519D000E8D631 /* DetailViewController.m */,
+				AAF1994B19553F4C00E8D631 /* WebViewController.h */,
+				AAF1994C19553F4C00E8D631 /* WebViewController.m */,
+				AAF1994E195544B300E8D631 /* MyUIApplication.h */,
+				AAF1994F195544B300E8D631 /* MyUIApplication.m */,
 			);
 			path = BigThunder;
 			sourceTree = "<group>";
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B3B6F194C2BCF009D53F1 /* TimeLineCell.m in Sources */,
+				AAF1994D19553F4C00E8D631 /* WebViewController.m in Sources */,
 				AA2B3B4C194C0E7F009D53F1 /* ViewController.m in Sources */,
 				AA2B3B46194C0E7F009D53F1 /* AppDelegate.m in Sources */,
+				AAF19950195544B300E8D631 /* MyUIApplication.m in Sources */,
+				AA2B3B6C194C2992009D53F1 /* TimeLineTableViewController.m in Sources */,
 				AA2B3B42194C0E7F009D53F1 /* main.m in Sources */,
+				AAF1994A195519D000E8D631 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +486,7 @@
 				AA2B3B66194C0E7F009D53F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA2B3B67194C0E7F009D53F1 /* Build configuration list for PBXNativeTarget "BigThunderTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +495,7 @@
 				AA2B3B69194C0E7F009D53F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
