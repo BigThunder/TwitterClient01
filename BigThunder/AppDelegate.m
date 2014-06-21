@@ -13,8 +13,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+   
+    [[UINavigationBar appearance] setTitleTextAttributes:[NSDictionary    dictionaryWithObjectsAndKeys:[UIColor colorWithRed:250/255.0 green:235/255.0 blue:172/255.0 alpha:1.0], NSForegroundColorAttributeName,  [UIFont fontWithName:@"FontNAme" size:20], NSFontAttributeName, nil]];
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:250/255.0 green:235/255.0 blue:172/255.0 alpha:1.0]];
     self.navigationController = (UINavigationController *)self.window.rootViewController;
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

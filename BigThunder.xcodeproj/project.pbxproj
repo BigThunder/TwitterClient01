@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA113F1219556C4E0093934E /* btn057_03.png in Resources */ = {isa = PBXBuildFile; fileRef = AA113F1119556C4E0093934E /* btn057_03.png */; };
+		AA113F15195577E90093934E /* twittertop.png in Resources */ = {isa = PBXBuildFile; fileRef = AA113F14195577E90093934E /* twittertop.png */; };
 		AA2B3B36194C0E7F009D53F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B3B35194C0E7F009D53F1 /* Foundation.framework */; };
 		AA2B3B38194C0E7F009D53F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B3B37194C0E7F009D53F1 /* CoreGraphics.framework */; };
 		AA2B3B3A194C0E7F009D53F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA2B3B39194C0E7F009D53F1 /* UIKit.framework */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA113F1119556C4E0093934E /* btn057_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn057_03.png; sourceTree = "<group>"; };
+		AA113F14195577E90093934E /* twittertop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twittertop.png; sourceTree = "<group>"; };
 		AA2B3B32194C0E7F009D53F1 /* BigThunder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BigThunder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA2B3B35194C0E7F009D53F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AA2B3B37194C0E7F009D53F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +98,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA113F1319556C7A0093934E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA113F14195577E90093934E /* twittertop.png */,
+				AA113F1119556C4E0093934E /* btn057_03.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		AA2B3B29194C0E7F009D53F1 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +152,7 @@
 				AA2B3B6D194C2BCF009D53F1 /* TimeLineCell.h */,
 				AA2B3B6E194C2BCF009D53F1 /* TimeLineCell.m */,
 				AAF19948195519D000E8D631 /* DetailViewController.h */,
+				AA113F1319556C7A0093934E /* Images */,
 				AAF19949195519D000E8D631 /* DetailViewController.m */,
 				AAF1994B19553F4C00E8D631 /* WebViewController.h */,
 				AAF1994C19553F4C00E8D631 /* WebViewController.m */,
@@ -253,8 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA113F15195577E90093934E /* twittertop.png in Resources */,
 				AA2B3B4E194C0E7F009D53F1 /* Images.xcassets in Resources */,
 				AA2B3B40194C0E7F009D53F1 /* InfoPlist.strings in Resources */,
+				AA113F1219556C4E0093934E /* btn057_03.png in Resources */,
 				AA2B3B49194C0E7F009D53F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
